@@ -1,0 +1,65 @@
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #009879;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #009879;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.time-table{
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.6cm;
+min-width: 400px;
+border-radius: 5px 5px 0 0;
+overflow: hidden;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+}
+
+.time-table thead tr {
+background-color: #009879;
+color: #ffffff;
+text-align: left;
+font-weight: bold;
+}
+
+.time-table th,
+.time-table td {
+padding: 12px 15px;
+}
+
+.time-table tbody tr{
+border-bottom: 1px solid #dddddd;
+}
+
+.time-table tbody tr:nth-of-type(even){
+background-color: #f3f3f3;
+}
+
+.time-table tbody tr:last-of-type{
+border-bottom: 2px solid #009879;
+}
+
+.break{
+background-color: #009879;
+color: #ffffff;
+}
+
+
