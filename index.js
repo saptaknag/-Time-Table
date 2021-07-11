@@ -13,9 +13,8 @@ var hr=date.getHours();
 const row=date.getDay();
 const col=hr-8; 
 
-if(row>=0 && row<5)
+if(row>0 && row<6)
 {
-    if(row>0)
     $("tbody tr")[row-1].classList.add("day");
     if(col>0 && col<10)
     {
@@ -25,3 +24,10 @@ if(row>=0 && row<5)
         }
     }
 }
+
+$("a").click(function(event){
+    if(!confirm('Class may not be active. Do you wish to proceed ?'))
+    {
+        location.href=self.location;
+    }
+});
