@@ -8,6 +8,7 @@ $(".DBMS-LAB").attr("href", "http://meet.google.com/kad-tzjp-sek");
 $(".ALGO-LAB").attr("href", "http://meet.google.com/nsk-kawh-zgv");
 $(".CN-LAB").attr("href", "https://meet.google.com/lookup/cn7qapcsoa");
 
+
 const date = new Date();
 var hr=date.getHours();
 const row=date.getDay();
@@ -28,6 +29,6 @@ if(row>0 && row<6)
 $("a").click(function(event){
     if(!confirm('Class may not be active. Do you wish to proceed ?'))
     {
-        location.href=self.location;
+        event.preventDefault();
     }
 });
