@@ -42,7 +42,7 @@ font-weight: bold;
 
 .time-table th,
 .time-table td {
-padding: 12px 15px;
+padding: 22px 26px;
 }
 
 .time-table tbody tr{
@@ -65,4 +65,16 @@ border-bottom: 1px solid #009879;
 text-align: center;
 }
 
+.day{
+  background-color: #FFEEDB;
+}
 
+.time{
+  
+  background-color: #FFEDA3;
+  text-align: center;
+}
+
+
+
+/* original padding 12 15 */
