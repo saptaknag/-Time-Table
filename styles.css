@@ -75,6 +75,9 @@ text-align: center;
   text-align: center;
 }
 
-
+.version{
+  position: absolute;
+  bottom: 0px;
+}
 
 /* original padding 12 15 */

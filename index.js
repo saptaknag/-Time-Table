@@ -27,6 +27,7 @@ if(row>0 && row<6)
 }
 
 $("a").click(function(event){
+    event.stopImmediatePropagation();
     if(!confirm('Class may not be active. Do you wish to proceed ?'))
     {
         event.preventDefault();
