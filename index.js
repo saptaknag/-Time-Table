@@ -9,27 +9,46 @@ $(".ALGO-LAB").attr("href", "http://meet.google.com/nsk-kawh-zgv");
 $(".CN-LAB").attr("href", "https://meet.google.com/lookup/cn7qapcsoa");
 
 
-const date = new Date();
+var date = new Date();
 var hr=date.getHours();
-const row=date.getDay();
-const col=hr-8; 
-
-if(row>0 && row<6)
+var row=date.getDay();
+if(row==0)
 {
-    $("tbody tr")[row-1].classList.add("day");
+    row=7;
+}
+row--;
+var col=hr-8; 
+
+if(row>=0 && row<5)
+{
+    $("tbody tr")[row].classList.add("day");
     if(col>0 && col<10)
     {
-        if($("tbody tr")[row-1].children[col].firstChild!="")
+        if($("tbody tr")[row].children[col].firstChild!="")
         {
-            $("tbody tr")[row-1].children[col].classList.add("time");
+            $("tbody tr")[row].children[col].classList.add("time");
         }
     }
 }
 
+
 $("a").click(function(event){
+    if(row<5){
+    if(event.target.innerText!=$("tbody tr")[row].cells[col].innerText){
     event.stopImmediatePropagation();
     if(!confirm('Class may not be active. Do you wish to proceed ?'))
     {
         event.preventDefault();
     }
+    }
+    }
+    else
+    {
+        event.stopImmediatePropagation();
+        if(!confirm('Class may not be active. Do you wish to proceed ?'))
+        {
+        event.preventDefault();
+        }
+    }
+
 });
