@@ -1,4 +1,3 @@
-$(document).ready(function(){
 $(".SE").attr("href", "http://meet.google.com/zca-hgss-qos"); 
 $(".CN").attr("href", "https://meet.google.com/lookup/cn7qapcsoa"); 
 $(".DAA").attr("href", "http://meet.google.com/nsk-kawh-zgv");
@@ -34,7 +33,7 @@ if(row>=0 && row<5)
 
 
 $("a").click(function(event){
-    if(row<5){
+    if(row<5 && col<10){
     if(event.target.innerText!=$("tbody tr")[row].cells[col].innerText){
     event.stopImmediatePropagation();
     if(!confirm('Class may not be active. Do you wish to proceed ?'))
@@ -52,5 +51,4 @@ $("a").click(function(event){
         }
     }
 
-});
 });
