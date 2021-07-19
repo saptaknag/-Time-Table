@@ -66,7 +66,7 @@ text-align: center;
 }
 
 .day{
-  background-color: #FFEEDB;
+  background-color: #FFEEDB !important;
 }
 
 .time{
