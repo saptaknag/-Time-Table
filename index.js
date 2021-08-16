@@ -1,10 +1,10 @@
 $(".SE").attr("href", "http://meet.google.com/zca-hgss-qos"); 
 $(".CN").attr("href", "https://meet.google.com/lookup/cn7qapcsoa"); 
-$(".DAA").attr("href", "http://meet.google.com/nsk-kawh-zgv");
+$(".DAA").attr("href", "https://meet.google.com/jrq-urbb-end");
 $(".ITC").attr("href", "https://meet.google.com/lookup/eaeuhqpwkl?authuser=0&hs=179");
 $(".DBMS").attr("href", "http://meet.google.com/kad-tzjp-sek"); 
 $(".CRY").attr("href", "https://meet.google.com/lookup/d7ghplms6c"); 
-$(".DBMS-LAB").attr("href", "http://meet.google.com/kad-tzjp-sek");
+$(".DBMS-LAB").attr("href", "https://meet.google.com/era-hgks-eyy");
 $(".ALGO-LAB").attr("href", "http://meet.google.com/nsk-kawh-zgv");
 $(".CN-LAB").attr("href", "https://meet.google.com/lookup/cn7qapcsoa");
 
