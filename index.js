@@ -3,7 +3,7 @@ $(".CN").attr("href", "https://meet.google.com/lookup/cn7qapcsoa");
 $(".DAA").attr("href", "https://meet.google.com/jrq-urbb-end");
 $(".ITC").attr("href", "https://meet.google.com/lookup/eaeuhqpwkl?authuser=0&hs=179");
 $(".DBMS").attr("href", "http://meet.google.com/kad-tzjp-sek"); 
-$(".CRY").attr("href", "https://meet.google.com/lookup/d7ghplms6c"); 
+$(".CRY").attr("href", "https://meet.google.com/zsu-rgsp-umw"); 
 $(".DBMS-LAB").attr("href", "http://meet.google.com/kad-tzjp-sek");
 $(".ALGO-LAB").attr("href", "https://meet.google.com/yij-yaic-idz");
 $(".CN-LAB").attr("href", "https://meet.google.com/lookup/cn7qapcsoa");
